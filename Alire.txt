@@ -1,0 +1,27 @@
+
+Bonjour,
+
+
+A. Le 1er fichier à exécuter est 'Projet4.ipynb'
+
+   Ce 1er projet :
+    - prépare le dataset principal et le sauve dans 'energy_2016.csv'.
+    - effectue les modélisations pour la variable cible 'SiteEnergyUse'.
+
+
+B. Le 2eme fichier à exécuter est 'Projet4_suite.ipynb'
+
+   Ce 2eme projet :
+    - charge le dataset principal depuis le fichier 'energy_2016.csv'.
+    - effectue les modélisations pour la variable cible 'GHGEmissionsCO2'.
+
+
+
+Notes:  
+    - Certaines cellules prennent beaucoup de temps à l'éxecution,
+        notamment celles qui contiennent la commande GridSearchCV() .
+      Le résultat de ces GridSearchCV() est disponible en fin de cellule en commentaire.
+
+    - J'ai fait le choix du modele "ElasticNet" comme meilleur modéle.
+      Du coup si il y a une cellule à exécuter impérativement c'est la cellule 
+         ou 'best_elastic' est renseigné et qui servira pour la suite du projet. 
